@@ -1,0 +1,93 @@
+Data set 1: Set Problem
+(table size: 100, dataset_1.txt (size: 10000)
+
+ - 17 average milliseconds.
+ - 10 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 100 (1.00 x the optimum)
+ - Average Non-empty chain size: 100.00
+
+(table size: 1000, dataset_1.txt (size: 10000)
+
+ - 6 average milliseconds.
+ - 0 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 10 (1.00 x the optimum)
+ - Average Non-empty chain size: 10.00
+
+(table size: 10000, dataset_1.txt (size: 10000)
+
+ - 1 average milliseconds.
+ - 0 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 1 (1.00 x the optimum)
+ - Average Non-empty chain size: 1.00
+
+
+Data set 2: Set Problem
+(table size: 100, dataset_2.txt (size: 10000)
+
+ - 17 average milliseconds.
+ - 10 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 100 (1.00 x the optimum)
+ - Average Non-empty chain size: 100.00
+
+(table size: 1000, dataset_2.txt (size: 10000)
+
+ - 5 average milliseconds.
+ - 0 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 10 (1.00 x the optimum)
+ - Average Non-empty chain size: 10.00
+
+
+Data set 3: Set Problem
+(table size: 5000, dataset_3_small.txt (size: 17520)
+
+ - 12 average milliseconds.
+ - 8 quickest milliseconds.
+ - Objs in set at end: 17520
+ - Max Chain Size: 4 (1.00 x the optimum)
+ - Average Non-empty chain size: 3.50
+
+(table size: 44000, dataset_3_large.txt (size: 175200)
+
+ - 104 average milliseconds.
+ - 101 quickest milliseconds.
+ - Objs in set at end: 175200
+ - Max Chain Size: 4 (1.00 x the optimum)
+ - Average Non-empty chain size: 3.98
+
+
+Data set 4: Set Problem
+(table size: 10000, dataset_4.txt (size: 64128)
+
+ - 40 average milliseconds.
+ - 40 quickest milliseconds.
+ - Objs in set at end: 64128
+ - Max Chain Size: 7 (1.00 x the optimum)
+ - Average Non-empty chain size: 6.41
+
+
+Data set 5: Dictionary Problem
+(table size: 100, dataset_5.txt (size: 39200)
+
+ - 80 average milliseconds.
+ - 79 quickest milliseconds.
+ - Objs in set at end: 100
+ - Max Chain Size: 3 (3.00 x the optimum)
+ - Average Non-empty chain size: 1.59
+
+
+Data set 6: Set Problem
+ - ***Regenerating RANDOM Data Set***
+(table size: 10000, dataset_6.txt (size: 140000)
+
+ - 103 average milliseconds.
+ - 101 quickest milliseconds.
+ - Objs in set at end: 140000
+ - Max Chain Size: 34 (2.43 x the optimum)
+ - Average Non-empty chain size: 14.00
+
+

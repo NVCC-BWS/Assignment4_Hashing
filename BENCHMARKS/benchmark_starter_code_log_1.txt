@@ -1,0 +1,80 @@
+Data set 1: Set Problem
+(table size: 100, dataset_1.txt (size: 10000)
+
+ - 17 average milliseconds.
+ - 12 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 100 (1.00 x the optimum)
+ - Average Non-empty chain size: 100.00
+
+(table size: 1000, dataset_1.txt (size: 10000)
+
+ - 5 average milliseconds.
+ - 0 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 10 (1.00 x the optimum)
+ - Average Non-empty chain size: 10.00
+
+(table size: 10000, dataset_1.txt (size: 10000)
+
+ - 3 average milliseconds.
+ - 0 quickest milliseconds.
+ - Objs in set at end: 10000
+ - Max Chain Size: 1 (1.00 x the optimum)
+ - Average Non-empty chain size: 1.00
+
+
+Data set 2: Set Problem
+(table size: 100, dataset_2.txt (size: 10000)
+
+
+ERROR: Cannot find object.
+       If your hash function is non-random, this means that your equality function should
+       return true more often (false negative).
+
+(table size: 1000, dataset_2.txt (size: 10000)
+
+
+ERROR: Cannot find object.
+       If your hash function is non-random, this means that your equality function should
+       return true more often (false negative).
+
+
+Data set 3: Set Problem
+(table size: 5000, dataset_3_small.txt (size: 17520)
+
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! Repeated testing took more than 3 seconds
+(table size: 44000, dataset_3_large.txt (size: 175200)
+
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! Repeated testing took more than 3 seconds
+Data set 4: Set Problem
+(table size: 10000, dataset_4.txt (size: 64128)
+
+add failed (line #11)
+Weather: [day: 1  hour: 16  minute: 54  temp: 70.6421  wind_speed: 45.67  wind_dir:   N  verified:   0 ]
+This means that your equality function should return false more often. (false positive).
+
+
+Data set 5: Dictionary Problem
+(table size: 100, dataset_5.txt (size: 39200)
+
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! (adding objs to set)
+ - TIMED OUT! Repeated testing took more than 3 seconds
+
+Data set 6: Set Problem
+ - ***Regenerating RANDOM Data Set***
+(table size: 10000, dataset_6.txt (size: 140000)
+
+add failed (line #182)
+Weather: [day: 28583  hour: 26948  minute: 12723  temp: 79.82  wind_speed: 100.18  wind_dir:   N  verified:   1 ]
+This means that your equality function should return false more often. (false positive).
+
+
